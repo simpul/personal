@@ -1,0 +1,10 @@
+@charset "utf-8";
+.ta-c{
+    text-align: center;
+}
+
+#content span{
+    margin-left: 14px;
+    font-size: 14px;
+    color: #777;
+}

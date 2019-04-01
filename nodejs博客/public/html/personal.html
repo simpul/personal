@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Simple's blog!</title>
+    <link rel="stylesheet" href="/layui/css/layui.css" />
+    <link rel="stylesheet" href="/css/personal.css" />
+    <script src="/layui/layui.js"></script>
+    <script src="/js/personal.js"></script>
+</head>
+
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <div class="layui-header">
+            <div class="layui-logo">个人中心</div>
+            <!-- 头部区域（可配合layui已有的水平导航） -->
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item"><a href="/">返回首页</a></li>
+            </ul>
+        </div>
+        <div class="layui-side layui-bg-black">
+            <div class="layui-side-scroll">
+                <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+                <ul class="layui-nav layui-nav-tree" lay-filter="*" id="nav">
+                    <li class="layui-nav-item ta-c"><a href="javascript:;" data-url="article">文章管理</a></li>
+                    <li class="layui-nav-item ta-c"><a href="javascript:;" data-url="comment">评论管理</a></li>
+                    <li class="layui-nav-item ta-c"><a href="javascript:;" data-url="avatar">头像上传</a></li>
+                    <li class="layui-nav-item ta-c"><a href="javascript:;" data-url="manager">管理员权限</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="layui-body">
+            <!-- 内容主体区域 -->
+            <div style="padding: 15px;" id="content">目前只实现了头像上传功能，其他功能施工中。。。</div>
+        </div>
+
+        <div class="layui-footer ta-c">
+            Design by: Simple杰豪 &nbsp; 备案号: 粤ICP备18145150号-1
+        </div>
+    </div>
+</body>
+
+</html>

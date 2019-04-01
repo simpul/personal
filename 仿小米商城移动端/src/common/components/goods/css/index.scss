@@ -1,0 +1,43 @@
+.goods{
+    margin: 0.16rem 0;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            width: 3.73rem;
+            height: 5.3rem;
+            margin-bottom: 0.16rem;
+            a{
+                display: block;
+            }
+            .goods_shop{
+                height: 3.75rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .info{
+                padding: .2rem .27rem;
+                .goods_title{
+                    font-size: 0.28rem;
+                    color: rgba(0,0,0,.87);
+                }
+                .goods_des{
+                    margin-top: .06rem;
+                    font-size: .22rem;
+                    line-height: .3rem;
+                    color: rgba(0, 0, 0, .54);
+                }
+                .goods_price{
+                    font-size: .28rem;
+                    color: #ea625b;
+                    height: 1.5em;
+                    line-height: 1.5em;
+                }
+            }
+            
+        }
+    }
+}

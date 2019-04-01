@@ -1,0 +1,133 @@
+.shopcar{
+    position: relative;
+    height: 100vh;
+    .shopcar_title{
+        height: 1rem;
+        background: #F2F2F2; 
+        display: flex;
+        .shopcar_title_left, .shopcar_title_right{
+            width: 1rem;
+            a{
+                height: 1rem;
+                line-height: 0.5rem;
+                text-align: center;
+                i{
+                    font-size: 0.4rem;
+                }    
+            }
+        }
+        .shopcar_title_middle{
+            width: calc(100vw - 2rem);
+            height: 1rem;
+            line-height: 1rem;
+            font-size: 0.3rem;
+            text-align: center;
+        }
+    }
+    .shopcar_content{
+        height: 2.38rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        & > div{
+            height: 1.82rem;
+        }
+        .select{
+            width: 0.64rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .select_circle{
+                width: 0.42rem;
+                height: 0.42rem;
+                border-radius: 50%;
+                border: 2px solid #EEE;
+                cursor: pointer;
+            }
+        }
+        .image{
+            width: 1.82rem;
+            border: 2px solid #EEE;
+            border-radius: 2px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .information{
+            width: 3.62rem;
+            padding-left: 0.2rem;
+            h3{
+                font-size: 0.28rem;
+                line-height: 0.32rem;
+            }
+            p{
+                font-size: 0.25rem;
+                line-height: 0.39rem;
+                color: #A2A2A2;
+            }
+            .count{
+                display: flex;
+                width: 1.86rem;
+                border: 2px solid #EEE;
+                margin-top: 0.03rem;
+                & > div{
+                    width: 0.62rem;
+                    height: 0.64rem;
+                    line-height: 0.64rem;
+                    font-size: 0.3rem;
+                    text-align: center;
+                }
+                .minus, .plus{
+                    background: #F4F4F4;
+                    cursor: pointer;
+                }
+            }
+        }
+        .delete{
+            position: relative;
+            i{
+                position: absolute;
+                bottom: 0.16rem;
+                left: 0.48rem;
+                font-size: 0.38rem;
+                cursor: pointer;
+            }
+        }
+    }
+    .shop_addr{
+        font-size: 0.3rem;
+        text-indent: 2em;
+    }
+    .shopcar_menu{
+        position: fixed;
+        display: flex;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        background-color: #fff;
+        & > div{
+            width: calc(100vw / 3);
+            height: 1.04rem;
+            font-size: 0.3rem;
+            text-align: center;
+        }
+        .total{
+            padding-top: 0.2rem;
+            height: 0.84rem;
+            span{
+                color: #FF6700;
+                font-size: 0.36rem;
+            }
+        }
+        .continue{
+            line-height: 1.04rem;
+            background: #F4F4F4;
+        }
+        .tocount{
+            line-height: 1.04rem;
+            background: #FF6700;
+            color: #fff;
+        }
+    }
+}

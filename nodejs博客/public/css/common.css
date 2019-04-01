@@ -1,0 +1,33 @@
+@charset "utf-8";
+nav a {
+	color: #fff;
+}
+nav {
+	line-height: 60px;
+	text-align: center;
+}
+nav h2 {
+	font-weight: normal;
+}
+.log, .nolog{
+	display: none;
+}
+#idname{
+	font-size: 12px;
+}
+nav img.layui-nav-img{
+	width: 46px;
+	height: 46px;
+	vertical-align: -18px;
+}
+nav .layui-col-md1 a{
+	margin: 0 5px;
+}
+.content{
+	background-color: #e2e2e2;
+}
+footer {
+	line-height: 60px;
+	text-align: center;
+	color: #666;
+}

@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w28 {
+    width: 28%;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.c-777 {
+    color: #777;
+}
+
+.clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.va-m {
+    vertical-align: middle;
+}
+
+.i-b {
+    display: inline-block;
+}
+
+.va-m {
+    vertical-align: middle;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.mg-b20 {
+    margin-bottom: 20px;
+}
+
+.mg-b400 {
+    margin-bottom: 400px;
+}
+
+.mg-t10 {
+    margin-top: 10px;
+}
+
+.mg-t20 {
+    margin-top: 20px;
+}
+
+.mg-t30 {
+    margin-top: 30px;
+}
+
+.content>div {
+    padding-top: 15px;
+}
+
+#article h2 {
+    margin-top: 5px;
+    line-height: 50px;
+}
+
+#article span {
+    margin: 0 5px;
+    color: #777;
+}
+
+#article article {
+    padding: 24px 28px 50px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#comment {
+    margin: 30px 20px;
+}
+
+#comment div.pa {
+    width: 80px;
+    top: -13px;
+    left: 50%;
+    margin-left: -40px;
+    font-size: 18px;
+}
+
+#comment form {
+    margin-top: 30px;
+}
+
+#comment img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#comment h3 {
+    margin-top: -4px;
+    line-height: 30px;
+    color: #1E9FFF;
+}

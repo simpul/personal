@@ -1,0 +1,9 @@
+@charset "utf-8";
+.content .layui-main {
+    width: 1060px;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+.content form .layui-form-text{
+    background-color: #fff;
+}

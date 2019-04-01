@@ -1,0 +1,1 @@
+请先初始化mongodb数据库：mongod --dbpath ./database/db

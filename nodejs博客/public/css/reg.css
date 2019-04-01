@@ -1,0 +1,17 @@
+@charset "utf-8";
+.content > .layui-main{
+  height: 900px;
+  padding: 1px 0;
+  background-color: #f0f0f0;
+}
+.content > .layui-main > div{
+  background-color: #fff;
+  margin: 60px;
+}
+.content .layui-tab-content{
+  padding: 30px 10px 15px;
+}
+.content .layui-input{
+  width: 95%;
+
+}

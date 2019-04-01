@@ -1,0 +1,30 @@
+.recommend{
+    padding: 0.18rem 0;
+    background-color: #F5F5F5;
+    ul{
+        height: 5.28rem;
+        background-color: #fff;
+        li{
+            float: right;
+            width: 3.72rem;
+            i{
+                display: block;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        li:first-child{
+            float: left;
+        }
+        li:last-child{
+            margin-top: 0.04rem;
+        }
+    }
+}
+.clearfix::after{
+    display: block;
+    content: '';
+    clear: both;
+}

@@ -1,0 +1,118 @@
+.my{
+
+    .login{
+        display: flex;
+        align-items: center;
+        height: 1.66rem;
+        padding-left: 0.34rem;
+        background: #f37d0f url('../img/bg.png') center no-repeat;
+        background-size: auto 100%;
+        .login_button{
+            width: 0.88rem;
+            height: 0.88rem;
+            border-radius: 50%;
+            border: 0.06rem solid #EFAE71;
+            background: url('../img/user.png') center no-repeat;
+            background-size: auto 100%;
+        }
+        .login_text{
+            height: 1rem;
+            padding-left: 0.16rem;
+            color: #fff;
+            font-size: 0.26rem;
+            line-height: 1rem;
+        }
+    }
+    .myorder{
+        display: flex;
+        align-items: center;
+        height: 0.82rem;
+        border-bottom: 2px solid #D9D9D9;
+        & > div{
+            height: 0.32rem;
+
+        }
+        .myorder_my{
+            font-size: 0.28rem;
+            padding-left: 0.32rem;
+            margin-right: 4.44rem;
+        }
+        .myorder_all{
+            font-size: 0.24rem;
+            span{
+                margin-left: 0.12rem;
+                font-size: 0.28rem;
+                color: #757575;
+            }
+        }
+    }
+    .status{
+        height: 1.76rem;
+        display: flex;
+        & > div{
+            width: calc(100vw / 3);
+            a{
+                height: 100%;
+                padding-top: 0.28rem;
+                text-align: center;
+                line-height: 0.8rem;
+                .iconfont{
+                    font-size: 0.42rem;
+                    color: #999;
+                }
+                span{
+                    display: block;
+                    line-height: 0.3rem;
+                    font-size: 0.24rem;
+                    color: #000;
+                }                
+            }
+
+        }
+    }
+    .menu{
+        padding: 0.2rem 0 0.4rem 0;
+        background:#F5F5F5;
+        & > ul{
+            margin-top: 0.2rem;
+            background: #fff;
+            li{
+                a{
+                    display: flex;
+                    height: 1.1rem; 
+                    .menu_img{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1.16rem;
+                        height: 1.1rem;
+                        img{
+                            display: block;
+                            width: 0.45rem;
+                            height: 0.45rem;
+                        }
+                    }
+                    .menu_text{
+                        width: 6.04rem;
+                        font-size: 0.28rem;
+                        line-height: 1.1rem;
+                        color: #000;
+                        span{
+                            float: right;
+                            color: #757575;
+                        }
+                    }   
+                }
+                
+            }
+            .border{
+                position: relative;
+                top: 0;
+                left: 1.16rem;
+                width: calc(100vw - 1.16rem);
+                height: 2px;
+                background: #D9D9D9;
+            }
+        }
+    }
+}

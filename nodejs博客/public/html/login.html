@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Welcome to Simple's blog!</title>
+	<link rel="stylesheet" href="/layui/css/layui.css" />
+	<link rel="stylesheet" href="/css/common.css" />
+	<link rel="stylesheet" href="/css/log.css" />
+	<script src="/layui/layui.js"></script>
+	<script src="/js/login.js"></script>
+</head>
+
+<body>
+	<!-- nav导航  header头部  section独立区域  article文章  aside侧边栏  footer底部 -->
+
+	<!-- 顶部导航栏 -->
+	<header>
+		<nav class="layui-bg-black">
+			<div class="layui-main">
+				<div class="layui-container">
+					<div class="layui-row">
+						<div class="layui-col-md2">
+							<a href="/" id="index">
+								<h2 title="Simple is my faith!">Simple's Blog</h2>
+							</a>
+						</div>
+						<div class="layui-col-md6 layui-col-md-offset2">
+							<ul class="layui-nav">
+								<li class="layui-nav-item">
+									<a href="/web">学·前端技术</a>
+								</li>
+								<li class="layui-nav-item">
+									<a href="/photo">摄·生活点滴</a>
+								</li>
+								<li class="layui-nav-item">
+									<a href="/write">写·阅读随笔</a>
+								</li>
+								<li class="layui-nav-item">
+									<a href="/chat">聊·畅所欲言</a>
+								</li>
+							</ul>
+						</div>
+						<div class="layui-col-md1">
+							<a href="/login" id="login">登陆</a>
+							<a href="/register" id="register">注册</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- 中间内容块 -->
+	<div class="content">
+		<div class="layui-main">
+			<div class="layui-tab layui-tab-card">
+				<ul class="layui-tab-title">
+					<li><a href="/register">初次见面，我要注册(•̀ᴗ•́)و ̑̑ </a></li>
+					<li class="layui-this"><a href="/login">已有账号？登陆(๑‾ ꇴ ‾๑)</a></li>
+				</ul>
+				<div class="layui-tab-content">
+					<div class="layui-tab-item"></div>
+					<div class="layui-tab-item layui-show">
+						<!-- 登陆 -->
+						<form class="layui-form" action="/login" method="POST">
+							<!-- 昵称 -->
+							<div class="layui-form-item">
+								<label class="layui-form-label">昵称：</label>
+								<div class="layui-input-block">
+									<input type="text" name="nickname" required lay-verify="required" placeholder="敢问来者何人？" autocomplete="off"
+									 class="layui-input">
+								</div>
+							</div>
+							<!-- 密码 -->
+							<div class="layui-form-item">
+								<label class="layui-form-label">密码：</label>
+								<div class="layui-input-block">
+									<input type="password" name="password" required lay-verify="required" placeholder="给我看看你的宝贝" autocomplete="off"
+									 class="layui-input">
+								</div>
+							</div>
+							<!-- 提交按钮 -->
+							<div class="layui-form-item">
+								<div class="layui-input-block">
+									<button class="layui-btn" lay-submit lay-filter="log">登陆</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 底部信息栏 -->
+	<footer>Establish on: December 7th, 2018 &nbsp; Design by: Simple杰豪 &nbsp; 备案号: 粤ICP备18145150号-1</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+@charset "uft8";
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w28 {
+    width: 28%;
+}
+
+.clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.i-b {
+    display: inline-block;
+}
+
+.va-m {
+    vertical-align: middle;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.mg-b400 {
+    margin-bottom: 400px;
+}
+
+.content>div {
+    padding-top: 15px;
+}
+
+#pages {
+    text-align: center;
+}
+
+.content section ul {
+    padding: 20px 20px 0;
+}
+
+.content section img {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.content section span {
+    margin-right: 6px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.content section h2 {
+    margin-top: -9px;
+    font: 400 18px/36px "Microsoft YaHei";
+}
+
+.content li.pr div.pa {
+    bottom: 10px;
+    right: 10px;
+    color: #ccc;
+}
+
+.content div.pa span {
+    font-size: 14px;
+    margin-left: 4px;
+}
