@@ -1,1 +1,1 @@
-请先初始化mongodb数据库：mongod --dbpath ./database/db
+鎵撳紑mongodb鏁版嵁搴擄紝鎸囦护mongod --dbpath ./database/db  锛堣嫢鏃犵洰褰曢渶瑕佹墜鍔ㄥ垱寤猴級
